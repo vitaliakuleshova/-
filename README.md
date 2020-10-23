@@ -12,6 +12,7 @@
 - Словарь [из презентации](https://docs.google.com/presentation/d/1SE-vU1J9KBhN-rPIHGr5ZuhjdDnmqrsQ_whaGEp8MUE/edit#slide=id.g45011269d2_1_7)
 - Вычисление tf-idf [из презентации](https://docs.google.com/presentation/d/1ptWdWIOh6BvuRJFR5Da__m1v9jMACJ6lDFv_c1UyG7w/edit#slide=id.g45d94c4f67_0_99)
 - Регулярные выражения [из презентации](https://vk.com/away.php?to=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1BMi9pottUJxXLzcnzsN5wEyGpEXyscgX0rBeowDM0Nk%2Fedit%3Fusp%3Dsharing&cc_key=)
+
 ---
 
 Число | Задание | Cуть
