@@ -15,7 +15,7 @@
 (*Важно, чтобы считался и tf,и idf*)
 - Регулярные выражения [из презентации](https://vk.com/away.php?to=https%3A%2F%2Fdocs.google.com%2Fpresentation%2Fd%2F1BMi9pottUJxXLzcnzsN5wEyGpEXyscgX0rBeowDM0Nk%2Fedit%3Fusp%3Dsharing&cc_key=)
 (*Важно, чтобы все фамилии были выбраны*)
-- Работа в Mysteam, AntConc и с частотными словарями [из презентации](https://docs.google.com/presentation/d/1cwq0BayV-2Ts9ZMbqcsvvsHjQg7ZtqtcV1FLnXjJ8bU/edit#slide=id.p)
+- Работа в Mysteam, AntConc и с частотными словарями [из презентации](https://docs.google.com/presentation/d/1cwq0BayV-2Ts9ZMbqcsvvsHjQg7ZtqtcV1FLnXjJ8bU/edit#slide=id.p).После сравнения частотного словаря нелемматизированного(1) и лемматизированного(2) текста, можно сделать вывод, что во втором частотном словаре уменьшилось количество токенов, так как из изначального текста мы взяли только первоначальные формы слова.Следовательно, их частота использования изменилась. В лемматизированном тексте слова разного времени, падежей и числа заменились на одну лемму.
 
 ---
 
