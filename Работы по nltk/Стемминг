@@ -1,0 +1,75 @@
+1.Стеммер Портера
+Первый текст на английском языке для стеммера Портера:
+Not for the first time, an argument had broken out over breakfast at number four, Privet Drive.
+Mr. Vernon Dursley had been woken in the early hours of the morning by a loud, hooting noise from his nephew Harry’s room.
+“Third time this week!” he roared across the table. “If you can’t control that owl, it’ll have to go!”
+Harry tried, yet again, to explain.
+“She’s bored,” he said. “She’s used to flying around outside. If I could just let her out at night—”
+“Do I look stupid?” snarled Uncle Vernon, a bit of fried egg dangling from his bushy mustache.
+“I know what’ll happen if that owl’s let out.” He exchanged dark looks with his wife, Petunia.
+Harry tried to argue back but his words were drowned by a long, loud belch from the Dursleys’ son, Dudley.
+“I want more bacon.”
+“There’s more in the frying pan, sweetums,” said Aunt Petunia, turning misty eyes on her massive son.
+“We must build you up while we’ve got the chance… I don’t like the sound of that school food…”
+“Nonsense, Petunia, I never went hungry when I was at Smeltings,” said Uncle Vernon heartily. “Dudley gets enough, don’t you, son?”
+Dudley, who was so large his bottom drooped over either side of the kitchen chair, grinned and turned to Harry.
+“Pass the frying pan.”
+“You’ve forgotten the magic word,” said Harry irritably.
+The effect of this simple sentence on the rest of the family was incredible: Dudley gasped and fell off his chair with a crash
+that shook the whole kitchen; Mrs. Dursley gave a small scream and clapped her hands to her mouth;
+Mr. Dursley jumped to his feet, veins throbbing in his temples. 
+
+Результат стемминга:
+
+stems: ['not', 'for', 'the', 'first', 'time', ',', 'an', 'argument', 'had', 'broken', 'out', 'over', 'breakfast', 'at', 'number', 
+'four', ',', 'privet', 'drive', '.', 'mr.', 'vernon', 'dursley', 'had', 'been', 'woken', 'in', 'the', 'earli', 'hour', 'of', 'the',
+'morn', 'by', 'a', 'loud', ',', 'hoot', 'nois', 'from', 'hi', 'nephew', 'harri', '’', 's', 'room', '.', '“', 'third', 'time',
+'thi', 'week', '!', '”', 'he', 'roar', 'across', 'the', 'tabl', '.', '“', 'If', 'you', 'can', '’', 't', 'control', 'that', 'owl',
+',', 'it', '’', 'll', 'have', 'to', 'go', '!', '”', 'harri', 'tri', ',', 'yet', 'again', ',', 'to', 'explain', '.', '“', 'she',
+'’', 's', 'bore', ',', '”', 'he', 'said', '.', '“', 'she', '’', 's', 'use', 'to', 'fli', 'around', 'outsid', '.', 'If', 'I', 
+'could', 'just', 'let', 'her', 'out', 'at', 'night—', '”', '“', 'Do', 'I', 'look', 'stupid', '?', '”', 'snarl', 'uncl', 'vernon', 
+',', 'a', 'bit', 'of', 'fri', 'egg', 'dangl', 'from', 'hi', 'bushi', 'mustach', '.', '“', 'I', 'know', 'what', '’', 'll', 'happen',
+'if', 'that', 'owl', '’', 's', 'let', 'out.', '”', 'He', 'exchang', 'dark', 'look', 'with', 'hi', 'wife', ',', 'petunia', '.',
+'harri', 'tri', 'to', 'argu', 'back', 'but', 'hi', 'word', 'were', 'drown', 'by', 'a', 'long', ',', 'loud', 'belch', 'from', 'the',
+'dursley', '’', 'son', ',', 'dudley', '.', '“', 'I', 'want', 'more', 'bacon.', '”', '“', 'there', '’', 's', 'more', 'in', 'the', 
+'fri', 'pan', ',', 'sweetum', ',', '”', 'said', 'aunt', 'petunia', ',', 'turn', 'misti', 'eye', 'on', 'her', 'massiv', 'son', '.',
+'“', 'We', 'must', 'build', 'you', 'up', 'while', 'we', '’', 've', 'got', 'the', 'chance…', 'I', 'don', '’', 't', 'like', 'the',
+'sound', 'of', 'that', 'school', 'food…', '”', '“', 'nonsens', ',', 'petunia', ',', 'I', 'never', 'went', 'hungri', 'when', 'I',
+'wa', 'at', 'smelt', ',', '”', 'said', 'uncl', 'vernon', 'heartili', '.', '“', 'dudley', 'get', 'enough', ',', 'don', '’', 't',
+'you', ',', 'son', '?', '”', 'dudley', ',', 'who', 'wa', 'so', 'larg', 'hi', 'bottom', 'droop', 'over', 'either', 'side', 'of',
+'the', 'kitchen', 'chair', ',', 'grin', 'and', 'turn', 'to', 'harri', '.', '“', 'pass', 'the', 'fri', 'pan.', '”', '“', 'you',
+'’', 've', 'forgotten', 'the', 'magic', 'word', ',', '”', 'said', 'harri', 'irrit', '.', 'the', 'effect', 'of', 'thi', 'simpl', 
+'sentenc', 'on', 'the', 'rest', 'of', 'the', 'famili', 'wa', 'incred', ':', 'dudley', 'gasp', 'and', 'fell', 'off', 'hi', 'chair',
+'with', 'a', 'crash', 'that', 'shook', 'the', 'whole', 'kitchen', ';', 'mrs.', 'dursley', 'gave', 'a', 'small', 'scream', 'and',
+'clap', 'her', 'hand', 'to', 'her', 'mouth', ';', 'mr.', 'dursley', 'jump', 'to', 'hi', 'feet', ',', 'vein', 'throb', 'in', 'hi', 'templ', '.']
+
+Анализ: 
+
+ *Если стеммер не знаком со словом, потому что его нет в словаре, то он отсечет лишнюю его часть с конца слова.
+ *Иногда обрезает "s" в конце слова, потому что думает, что это окончание существительных во множественном чиссле, а не часть основы слова. 
+ Например, слово "was" обрезалось и стало "wa".
+ 
+ 
+2.Стеммер Snowball
+Текст на русском языке для стеммера Snowball:
+
+text = ''' Однажды весною, в час небывало жаркого заката, в Москве, на Патриарших прудах, появились два гражданина.
+Первый из них, одетый в летнюю серенькую пару, был маленького роста, упитан, лыс, свою приличную шляпу пирожком нес в руке,
+а на хорошо выбритом лице его помещались сверхъестественных размеров очки в черной роговой оправе. Второй – плечистый, рыжеватый,
+вихрастый молодой человек в заломленной на затылок клетчатой кепке – был в ковбойке, жеваных белых брюках и в черных тапочках.
+Первый был не кто иной, как Михаил Александрович Берлиоз, председатель правления одной из крупнейших московских литературных ассоциаций,
+сокращенно именуемой МАССОЛИТ, и редактор толстого художественного журнала, а молодой спутник его – поэт Иван Николаевич Понырев,
+пишущий под псевдонимом Бездомный.
+Попав в тень чуть зеленеющих лип, писатели первым долгом бросились к пестро раскрашенной будочке с надписью «Пиво и воды».'''
+
+Результат стемминга:
+stems: ['однажд', 'весн', ',', 'в', 'час', 'небыва', 'жарк', 'закат', ',', 'в', 'москв', ',', 'на', 'патриарш', 'пруд', ',',
+'появ', 'два', 'гражданин', '.', 'перв', 'из', 'них', ',', 'одет', 'в', 'летн', 'сереньк', 'пар', ',', 'был', 'маленьк', 'рост',
+',', 'упита', ',', 'лыс', ',', 'сво', 'приличн', 'шляп', 'пирожк', 'нес', 'в', 'рук', ',', 'а', 'на', 'хорош', 'выбрит', 'лиц',
+'ег', 'помеща', 'сверхъестествен', 'размер', 'очк', 'в', 'черн', 'рогов', 'оправ', '.', 'втор', '–', 'плечист', ',', 'рыжеват',
+',', 'вихраст', 'молод', 'человек', 'в', 'заломлен', 'на', 'затылок', 'клетчат', 'кепк', '–', 'был', 'в', 'ковбойк', ',', 'жеван',
+'бел', 'брюк', 'и', 'в', 'черн', 'тапочк', '.', 'перв', 'был', 'не', 'кто', 'ин', ',', 'как', 'миха', 'александрович', 'берлиоз', 
+',', 'председател', 'правлен', 'одн', 'из', 'крупн', 'московск', 'литературн', 'ассоциац', ',', 'сокращен', 'именуем', 'массол', 
+',', 'и', 'редактор', 'толст', 'художествен', 'журна', ',', 'а', 'молод', 'спутник', 'ег', '–', 'поэт', 'ива', 'николаевич',
+'поныр', ',', 'пишущ', 'под', 'псевдоним', 'бездомн', '.', 'попа', 'в', 'тен', 'чут', 'зеленеющ', 'лип', ',', 'писател', 'перв',
+'долг', 'брос', 'к', 'пестр', 'раскрашен', 'будочк', 'с', 'надпис', '«', 'пив', 'и', 'вод', '»', '.']
